@@ -8,8 +8,8 @@
 - Port Fowarding `kubectl port-forward service/backend-service 3000`
 
 **Running Test File**
-- Install Requirements : `pip install -r requirementes.txt`
-- Run the python script : 'python integration_test.py`
+- Install Requirements: `pip install -r requirementes.txt`
+- Run the python script: `python integration_test.py`
 - Script has 2 methods `verification_success()` and `verification_failed()`
 - `verification_success()`: Comapring backend message with the frontend message
 - `verification_failed()`: Comapring backend message with random string 
